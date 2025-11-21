@@ -33,13 +33,14 @@ public class MathOperations
         System.out.println(a==b);
         
         //Logical Operator
-        int marks= 80;
-        if (marks<40){
+        Scanner scan= new Scanner(System.in);
+        int marks= scan.nextInt();
+        System.out.println("Enter your marks:"+ marks);
+        if (marks<=40){
         System.out.println("Student is fail.");
         }
         
         //Ternary Operator
-        Scanner scan= new Scanner(System.in);
         int age= scan.nextInt();
         System.out.println("Enter your age:"+ age);
         String canDrive=(age>=18)?"You can drive.":"You can't drive";
