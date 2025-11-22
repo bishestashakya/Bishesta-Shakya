@@ -26,4 +26,4 @@ public class DefaultValues
         System.out.println("Default value for byte="+ checker.g);
         System.out.println("Default value for byte="+ checker.h);
     }
-}
+} //Local variable needs initialization 
